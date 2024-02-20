@@ -1,0 +1,21 @@
+{
+  "name": "discord-video-gif-updater",
+  "version": "1.0.0",
+  "description": "Updates Discord self-bot profile picture or banner with GIFs created from video files.",
+  "main": "moviepfp.js",
+  "scripts": {
+    "start": "node moviepfp.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js-selfbot-v13": "^13.0.0",
+    "dotenv": "^10.0.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "util": "^0.12.4"
+  },
+  "engines": {
+    "node": ">=16.6.0"
+  }
+}
